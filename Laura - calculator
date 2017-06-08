@@ -1,0 +1,41 @@
+print("""
+                  Calculator           
+    """)
+
+num1 = input("Your first number: ")
+oper = input("Choose your operation (+,-,*,/) : ")
+num2 = input("Choose your second number: ")
+
+num1 = int(num1)
+num2 = int(num2)
+
+
+if (oper == "+"):
+    print("\\Your calculation: \\n",
+          num1, " + ", num2)
+    print("Result: \\n",
+          num1 + num2)
+
+elif (oper == "-"):
+    print("\\Your calculation: \\n",
+          num1, " - ", num2)
+    print("Result: \\n",
+          num1 - num2)
+
+elif (oper == "/"):
+    print("\\Your calculation: \\n",
+          num1, " / ", num2)
+    print("Result: \\n",
+          num1 / num2)
+          
+        
+
+elif (oper == "*"):
+    print("\\Your calculation: \\n",
+          num1, " * ", num2)
+    print("Result: \\n",
+          num1 * num2)
+
+else:
+    print("\\no valid input");
+    
